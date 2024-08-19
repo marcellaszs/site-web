@@ -1,0 +1,70 @@
+*{
+    height: 100%;
+
+}
+
+body{
+    background-image: linear-gradient(to bottom, #1F3E53, #425B7E, #7C8CC2 );
+
+}
+img{
+  width: 500px;
+  height: 300px;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  left: 805px;
+  top: 185px;
+}
+/*fonte do primeiro texto*/
+@font-face {
+    font-family: primeirafonte;
+    src: url(Be_Vietnam_Pro\,Roboto.zip);
+}
+h1{
+      position: relative;
+      transform: translate(110px, -320px);
+      font-size: 60px;
+      font-family: 'primeirafonte', sans-serif;
+      font-weight: bolder;
+      color: #84e4ff;
+}
+p{
+    position: absolute;
+    margin: 0;
+    top: -2px;
+    margin-top: 380px;
+   margin-left: 110px;
+   font-size: 16px;
+   font-family: 'primeirafonte', sans-serif;
+   color: white;
+}
+.container {
+    position: relative;
+    font-family: 'primeirafonte'sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+   
+}
+main{
+    position: relative;
+    background-color: rgb(80, 78, 78);
+    width: 250px;
+    height: 40px;
+    margin: 0;    
+    transform: translateY(-770px);
+  margin-left: 110px;
+ border-radius: 3px;
+}
+#um {
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:sans-serif;    
+    margin-bottom: -7px;
+    padding: 5%;
+    font-weight: bold;
+}
