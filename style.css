@@ -28,6 +28,7 @@ h1{
       font-family: 'primeirafonte', sans-serif;
       font-weight: bolder;
       color: #84e4ff;
+      text-shadow: 3px 3px 3px #1F3E53;
 }
 p{
     position: absolute;
@@ -38,6 +39,7 @@ p{
    font-size: 16px;
    font-family: 'primeirafonte', sans-serif;
    color: white;
+   text-shadow: 3px 3px 3px #1F3E53;
 }
 .container {
     position: relative;
@@ -51,12 +53,13 @@ p{
 main{
     position: relative;
     background-color: rgb(80, 78, 78);
-    width: 250px;
+    width: 234px;
     height: 40px;
     margin: 0;    
     transform: translateY(-770px);
   margin-left: 110px;
- border-radius: 3px;
+ border-radius: 3px;   
+ 
 }
 #um {
     color: #ffff;
@@ -67,4 +70,9 @@ main{
     margin-bottom: -7px;
     padding: 5%;
     font-weight: bold;
+    text-align: center;
+    position: absolute;
+    align-items: flex-start;   
+    display: flex;
+
 }
